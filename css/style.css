@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.outer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+input[ type= "text" ],
+button {
+    margin: 2.5px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: wheat;
+}
+
+button:hover {
+    box-shadow: 5px 3px;
+}
+
